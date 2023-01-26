@@ -1,8 +1,8 @@
-/**
- * 
- * Due: Jan-22 (eod)
- * 
- */
+
+ 
+ //Due: Jan-22 (eod)
+ 
+ 
 /**
  * Question-1:
  * 
@@ -25,9 +25,24 @@
  * 
  * 
  * Hint: Ternary operator
- * 
- */
-let sentence1 = 'Go to NBCNews.com for breaking news, videos, and the latest top stories in world news, business, politics, health and pop culture.';
+ *
+       sentence1 = 'go to home'
+       let sentence1 = sentence1.length
+       console.log(`sentence1.length-> ${sentence1.length}`)
+
+//let sentence1 = sentence1.length
+sentence1 = 'go to home'
+
+
+
+
+//sentence1 = 'Go to NBCNews.com for breaking news, videos, and the latest top stories in world news, business, politics, health and pop culture.';
 let result1 = 0;
 // code
+console.log(`result1 -> ${result1}`);
+*/
+
+sentence1 = 'go to home'
+let sentence1 = sentence1.length
+let result1 = sentence1 > 100 || sentence1? 25: 35;
 console.log(`result1 -> ${result1}`);
